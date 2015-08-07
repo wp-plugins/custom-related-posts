@@ -13,7 +13,7 @@ class CRP_Vafpress_Shortcode {
         require_once( CustomRelatedPosts::get()->coreDir . '/helpers/vafpress/vafpress_shortcode_options.php');
 
         new VP_ShortcodeGenerator(array(
-            'name'           => 'wpupg_shortcode_generator',
+            'name'           => 'crp_shortcode_generator',
             'template'       => $shortcode_generator,
             'modal_title'    => 'Custom Related Posts ' . __( 'Shortcodes', 'wp-ultimate-post-grid' ),
             'button_title'   => 'Custom Related Posts',
